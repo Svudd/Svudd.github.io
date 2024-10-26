@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="mainsheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side - Fixed -->
+        <div class="left-side">
+            <div class="profile-section">
+                <img src="your-photo.jpg" alt="Your Picture" class="profile-pic">
+                <h1>Your Name</h1>
+                <p>Your introduction or title (e.g., A computer science student at XYZ)</p>
+            </div>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+            </div>
+            <footer>
+                <p>&copy; 2024 Your Name</p>
+            </footer>
+        </div>
+
+        <!-- Right Side - Scrollable -->
+        <div class="right-side">
+            <section class="intro-section">
+                <h2>Hello, world! :D</h2>
+                <p>Your intro paragraph about yourself, your background, and what you're interested in.</p>
+            </section>
+
+            <section class="experience-section">
+                <h3>Professional Experience</h3>
+                <!-- Add your professional experiences with images -->
+                <div class="experience-item">
+                    <img src="company1-logo.png" alt="Company 1">
+                    <p>Role at Company 1</p>
+                </div>
+                <div class="experience-item">
+                    <img src="company2-logo.png" alt="Company 2">
+                    <p>Role at Company 2</p>
+                </div>
+                <a href="your-resume-link.pdf" class="resume-link">Full Resume</a>
+            </section>
+
+            <hr> <!-- Subtle line between sections -->
+
+            <section class="honors-section">
+                <h3>Honors & Awards</h3>
+                <!-- Add your honors with images -->
+                <div class="honor-item">
+                    <img src="honor1-logo.png" alt="Honor 1">
+                    <p>Award or Honor 1</p>
+                </div>
+                <div class="honor-item">
+                    <img src="honor2-logo.png" alt="Honor 2">
+                    <p>Award or Honor 2</p>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="projects-section">
+                <h3>Projects</h3>
+                <!-- Add your projects with images -->
+                <div class="project-item">
+                    <img src="project1-image.png" alt="Project 1">
+                    <p>Project Name 1</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2-image.png" alt="Project 2">
+                    <p>Project Name 2</p>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="skills-section">
+                <h3>Skills</h3>
+                <div class="skills">
+                    <div class="technical-skills">
+                        <h4>Technical</h4>
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                        </ul>
+                    </div>
+                    <div class="soft-skills">
+                        <h4>Soft</h4>
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="contact-section">
+                <h3>Get In Touch</h3>
+                <form action="submit-contact.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+                <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
